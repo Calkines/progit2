@@ -53,7 +53,7 @@ Esta funcionalidade está incorporada no Git nos níveis mais baixos e é parte 
 Você não perderá informação durante a transferência e não receberá um arquivo corrompido sem que o Git seja capaz de detectár.
 
 O mecanismo que o Git utiliza para esta soma de verificação é chamado de C◊hash SHA-1. (((SHA-1)))
-Esta é uma seqüência de 40 caracteres composta de caracteres hexadecimais (0-9 e-f) e é calculada com base no conteúdo de uma estrutura de arquivo ou diretório no Git.
+Esta é uma seqüência composta por 40 caracteres hexadecimais (0-9 e-f) sendo calculada com base no conteúdo de uma estrutura de arquivo ou diretório no Git.
 Um hash SHA-1 é algo como o seguinte:
 
 [source]
